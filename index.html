@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
 </head>
 
@@ -18,6 +19,7 @@
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-wifi"></i>
+            <i class="fas fa-signal"></i>
             <span class="ststus-bar__battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
@@ -34,6 +36,9 @@
                 <i class="far fa-comment"></i>
             </span>
             <span class="header__icon">
+                <i class="fas fa-music"></i>
+            </span>
+            <span class="header__icon">
                 <i class="fas fa-cog"></i>
             </span>
         </div>
@@ -42,23 +47,54 @@
         <ul class="chats_list">
             <li class="chats__chat chat">
                 <a href="chat.html">
-                    <div class="chat__colummn">
-                        <img class="chat__avatar g-avatar" src="images/avatar.jpg" width="100" height="100" />
-                        <div class="chat__content">
-                            <span class="chat___username">
-                                Chobee
+                    <div class="chats__chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="images/lala.jpg" class="m-avatar friend__avatar">
+                            <div class="friend__content">
+                                <span class="friend__name">
+                                    Lala
+                                </span>
+                                <span class="friend__bottom-text">
+                                    Yeah, I like it!!!
+                                </span>
+                            </div>
+                        </div>
+                        <div class="friend__column">
+                            <span class="chat__timestamp">
+                                July 14
                             </span>
-                            <span class="chat__preview">Going home</span>
                         </div>
                     </div>
-                    <div class="chat__colummn">
-                        <span class="caht__timestamp">Yesterday</span>
+                </a>
+            </li>
+            <li class="chats__chat chat">
+                <a href="#">
+                    <div class="chats__chat friend friend--lg">
+                        <div class="friend__column">
+                            <img src="images/cookie.jpg" class="m-avatar friend__avatar">
+                            <div class="friend__content">
+                                <span class="friend__name">
+                                    Cookie
+                                </span>
+                                <span class="friend__bottom-text">
+                                    Okay. See you soon!
+                                </span>
+                            </div>
+                        </div>
+                        <div class="friend__column">
+                            <span class="friend__column">
+                                <div class="chat__badge">8</div>
+                            </span>
+                            <span class="chat__timestamp">
+                                July 13
+                            </span>
+                        </div>
                     </div>
                 </a>
             </li>
         </ul>
     </main>
-    <nav calss="nav">
+    <nav class="nav">
         <ul class="nav__list">
             <li class="nav__list-item">
                 <a href="friends.html" class="nav__list-link">
@@ -67,6 +103,7 @@
             </li>
             <li class="nav__list-item">
                 <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
                     <i class="fas fa-comment"></i>
                 </a>
             </li>
@@ -82,6 +119,9 @@
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!!</span>
+    </div>
 </body>
 
 </html>

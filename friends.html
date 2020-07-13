@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
 </head>
 
@@ -18,6 +19,7 @@
             <i class="fas fa-clock"></i>
             <i class="fas fa-volume-mute"></i>
             <i class="fas fa-wifi"></i>
+            <i class="fas fa-signal"></i>
             <span class="ststus-bar__battery-level">100%</span>
             <i class="fas fa-battery-full"></i>
         </div>
@@ -31,21 +33,27 @@
                 <i class="fas fa-search"></i>
             </span>
             <span class="header__icon">
+                <i class="fas fa-user-plus"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-music"></i>
+            </span>
+            <span class="header__icon">
                 <i class="fas fa-cog"></i>
             </span>
         </div>
     </header>
     <main class="friends">
         <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
+            <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" width="100" height="100" class="g-avatar friend">
+                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            Chobee
+                            Nana
                         </span>
-                        <span class="friend_status">
-                            nomadcoders.co
+                        <span class="friend__status">
+                            nana@google.com
                         </span>
                     </div>
                 </div>
@@ -55,10 +63,10 @@
             <h5 class="friends__title">Plus friend</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" width="100" height="100" class="g-avatar friend">
+                    <img src="images/lala.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            Plus Friend
+                            Lala
                         </span>
                     </div>
                 </div>
@@ -68,29 +76,64 @@
             <h5 class="friends__title">Friends 14</h5>
             <li class="friends__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" width="100" height="100" class="g-avatar friend">
+                    <img src="images/cookie.jpg" class="friend__avatar">
                     <div class="friend__content">
-                        <span class="friend__name">
-                            Chobee
-                        </span>
-                        <span class="friend_status">
-                            nomadcoders.co
+                        <span class="friend__name">Cookie</span>
+                        <span class="friend__status">
+                            I'm happy!
                         </span>
                     </div>
                 </div>
                 <div class="friend__column">
                     <div class="friend__now-listening">
                         <span>
-                            지독하게 - FTISLAND
+                            Happy - 태연
+                            <i class="fas fa-play"></i>
                         </span>
-                        <i class="fas fa-play"></i>
-
+                    </div>
+                </div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/cheddar.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">Cheddar</span>
+                        <span class="friend__status">
+                            I'm bored...
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>
+                            PLAY (Feat. 창모) - 청하
+                            <i class="fas fa-play"></i>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/bam.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">Bam</span>
+                        <span class="friend__status">
+                            I'm cute!
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__now-listening">
+                        <span>
+                            보라빛 밤 - 선미
+                            <i class="fas fa-play"></i>
+                        </span>
                     </div>
                 </div>
             </li>
         </ul>
     </main>
-    <nav calss="nav">
+    <nav class="nav">
         <ul class="nav__list">
             <li class="nav__list-item">
                 <a href="friends.html" class="nav__list-link">
@@ -114,6 +157,9 @@
             </li>
         </ul>
     </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small!!</span>
+    </div>
 </body>
 
 </html>
