@@ -69,6 +69,35 @@
     padding: 10px 15px;
     justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: #ffc3a0;
     border-radius: 5px;
+}
+.friend__column .new-content{
+    display: flex;
+}
+.friend__new .new__badge{
+    font-size: 10px;
+    color: white;
+    background-color: #dc5d46;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+@keyframes spin {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateY(1turn);
+    }
+}
+
+.friend__new .new__badge {
+    
+    animation: spin 1s linear infinite;
 }

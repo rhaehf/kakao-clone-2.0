@@ -1,7 +1,9 @@
 .nav {
     position: fixed;
     width: 100%;
-    background-color: #fcfcfc;
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 20px 50px;
     left: 0px;
     bottom: 0px;

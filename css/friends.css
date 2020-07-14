@@ -5,8 +5,16 @@
     margin: 20px 0px;
 }
 
+.friends .friends__new {
+    padding: 20px 0px;
+    padding-top: 0px;
+    border-bottom: 1px solid #f7f7f7;
+    margin: 20px 0px;
+}
+
 .friends__plus .friends__title,
-.friends__list .friends__title {
+.friends__list .friends__title,
+.friends__new .friends__title {
     font-size: 14px;
     opacity: 0.6;
     margin-bottom: 12px;
