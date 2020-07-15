@@ -1,42 +1,89 @@
-.more .more__btn-list,
-.more .more__suggestions-list {
-    margin: 30px 0px;
-    margin-left: 10px;
+.more .friend__column:last-child {
     display: flex;
+    justify-content: space-around;
+}
+
+.friend__column:last-child .my__column,
+.friend__column:last-child .con__column {
+    background-color: white;
+    width: 60px;
+    height: 35px;
+    border: 2px solid  #E7EAED;
+    border-radius: 50px;
+    text-align: center;
+    padding: 8px 0px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.friend__column:last-child .con__column img {
+    border-radius: 50%;
+}
+
+.friend__column:last-child .con__column {
+    padding-top: 0px; 
+}
+
+.more .pay__section{
+    background-color:  #E7EAED;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    font-weight: 400;
+}
+
+.pay__section .pay__column:first-child {
+    background-color: #f7f7f7e5;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 6px 8px;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
-.more__btn-list .more__btn,
+.pay__section .pay__option {
+    border-right: 1px solid #f7f7f7e5;
+    padding: 0px 7px;
+}
+
+.pay__section .pay__option:last-child {
+    border: none;
+}
+
+.more .more__suggestions-list {
+    margin: 10px 0px;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+
+}
+
 .more .suggestion {
     margin-right: 40px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
 }
 
-.more__btn .more__btn-title {
-    font-size: 14px;
-    margin-top: 15px;
-}
-
 .more .more__suggestions {
-    border-top: 1px solid #f7f7f7;
     padding-top: 20px;
-}
-
-.more .more__title {
-    opacity: 0.8;
-    margin-bottom: 20px;
 }
 
 .suggestion .suggestion__title {
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .suggestion .suggestion__icon {
-    background-color: #fce006;
     padding: 10px;
     display: flex;
     justify-content: center;
